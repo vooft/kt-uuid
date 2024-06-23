@@ -1,0 +1,16 @@
+[versions]
+kotlin = "2.0.0"
+kotest = "5.9.1"
+
+[libraries]
+secure-random = { module = "org.kotlincrypto:secure-random", version = "0.3.1" }
+
+# testing
+kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
+kotest-assertions-core = { module = "io.kotest:kotest-assertions-core", version.ref = "kotest" }
+
+[plugins]
+kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
+detekt = { id = "io.gitlab.arturbosch.detekt", version = "1.23.6" }
+maven-central-publish = { id = "com.vanniktech.maven.publish", version = "0.28.0" }
+dokka = { id = "org.jetbrains.dokka", version = "1.9.20" }
