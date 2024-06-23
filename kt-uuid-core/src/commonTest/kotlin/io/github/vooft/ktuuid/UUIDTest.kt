@@ -1,4 +1,4 @@
-package io.github.vooft.kuuid
+package io.github.vooft.ktuuid
 
 import io.kotest.matchers.shouldBe
 import kotlin.test.Test

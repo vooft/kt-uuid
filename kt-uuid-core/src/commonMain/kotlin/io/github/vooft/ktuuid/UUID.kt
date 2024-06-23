@@ -1,4 +1,4 @@
-package io.github.vooft.kuuid
+package io.github.vooft.ktuuid
 
 import org.kotlincrypto.SecureRandom
 import kotlin.experimental.and
