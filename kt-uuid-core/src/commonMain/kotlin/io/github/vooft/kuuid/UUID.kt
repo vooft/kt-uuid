@@ -5,7 +5,7 @@ import kotlin.experimental.and
 import kotlin.experimental.or
 
 
-class UUID(private val mostSignificantBits: Long, private val leastSignificantBits: Long) {
+class UUID(val mostSignificantBits: Long, val leastSignificantBits: Long) {
 
     override fun toString(): String {
         return buildString(36) {
