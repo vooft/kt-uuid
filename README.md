@@ -40,7 +40,7 @@ kotlin {
 API is trying to mirror the `java.util.UUID` class as much as possible.
 
 ```kotlin
-io.github.vooft.kuuid.UUID
+import io.github.vooft.kuuid.UUID
 
 val uuid1 = UUID.randomUUID()
 val uuid2 = UUID.fromString("123e4567-e89b-12d3-a456-426614174000")
