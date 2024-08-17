@@ -13,6 +13,9 @@ plugins {
 kotlin {
     jvm()
 
+    iosX64()
+    macosX64()
+
     macosArm64()
     iosArm64()
     iosSimulatorArm64()
