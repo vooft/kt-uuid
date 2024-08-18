@@ -16,6 +16,8 @@ Currently it is compiled for:
 * macosArm64
 * iosArm64
 * iosSimulatorArm64
+* macosX64
+* iosX64
 * mingwX64
 * linuxX64
 * js (browser/nodejs)
