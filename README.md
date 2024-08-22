@@ -9,7 +9,7 @@ Simple Kotlin Multiplatform library to generate UUIDs.
 
 ## Supported platforms
 
-Library does not have any non-multiplatform dependencies, so adding any new platform should not be an issue.
+Library has only one critical dependency - [secure-random](https://github.com/KotlinCrypto/secure-random), adding new platforms is mostly limited by which platforms does this library support.
 
 Currently it is compiled for:
 * jvm
