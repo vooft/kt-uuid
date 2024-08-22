@@ -14,14 +14,14 @@ Library has only one critical dependency - [secure-random](https://github.com/Ko
 Currently it is compiled for:
 * jvm
 * macosArm64
+* macosX64
 * iosArm64
 * iosSimulatorArm64
-* macosX64
 * iosX64
-* mingwX64
-* linuxX64
 * js (browser/nodejs)
 * wasm (browser/nodejs)
+* mingwX64
+* linuxX64
 
 # Quick start
 Library is published to Maven Central under name [io.github.vooft:kt-uuid-core](https://central.sonatype.com/search?namespace=io.github.vooft&name=kt-uuid-core).
