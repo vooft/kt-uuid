@@ -3,7 +3,7 @@ kotlin = "2.0.20"
 kotest = "5.9.1"
 
 [libraries]
-secure-random = { module = "org.kotlincrypto:secure-random", version = "0.3.1" }
+secure-random = { module = "org.kotlincrypto:secure-random", version = "0.3.2" }
 
 # testing
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
