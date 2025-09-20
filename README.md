@@ -3,7 +3,7 @@
 ![Maven Central](https://img.shields.io/maven-central/v/io.github.vooft/kt-uuid-core)
 ![License](https://img.shields.io/github/license/vooft/kt-uuid)
 
-Since kotlin-2.0 a native [Uuid](https://kotlinlang.org/api/core/2.0/kotlin-stdlib/kotlin.uuid/-uuid/) class is available, there is no need for this library anymore.
+## Since kotlin-2.0 a native [Uuid](https://kotlinlang.org/api/core/2.0/kotlin-stdlib/kotlin.uuid/-uuid/) class is available, there is no need for this library anymore.
 
 # kt-uuid
 
